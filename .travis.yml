@@ -1,7 +1,0 @@
-language: csharp
-solution: ./JayFlix-Api/App/plataforma-videos.sln
-install:
-  - nuget install xunit.runners -Version 1.9.2 -OutputDirectory testrunner
-script:
-  - msbuild /p:Configuration=Release plataforma-videos.sln
-  - mono ./testrunner/xunit.runners.1.9.2/tools/xunit.console.clr4.exe ./JayFlix-Api/Tests/bin/Debug/net5.0/alura-challenge-aluraflix-tests.dll
