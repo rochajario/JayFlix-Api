@@ -21,14 +21,13 @@ namespace plataforma_videos_api
         {
             services.AddFirebaseAuthentication(Configuration);
 
-            services.AddCors(options =>
+            services.AddCors(options => options.AddPolicy("AllowAny", builder =>
             {
-                options.AddDefaultPolicy(
-                    builder =>
-                    {
-                        builder.WithOrigins("*");
-                    });
-            });
+                builder.AllowAnyHeader();
+                builder.AllowAnyMethod();
+                builder.AllowAnyOrigin();
+            }));
+
             services.AddControllers(options => options.Filters.Add(typeof(HttpExcepitonGlobalFilter)));
             services.AddSwaggerDocumentation(Configuration);
             services.AddDbContext<ApplicationContext>();
@@ -38,18 +37,18 @@ namespace plataforma_videos_api
             services.AddScoped<IService<Video>, VideoService>();
         }
 
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+    {
+        app.UseSwaggerDocumentation(Configuration);
+        app.UseHttpsRedirection();
+        app.UseRouting();
+        app.UseCors("AllowAny");
+        app.UseAuthentication();
+        app.UseAuthorization();
+        app.UseEndpoints(endpoints =>
         {
-            app.UseSwaggerDocumentation(Configuration);
-            app.UseHttpsRedirection();
-            app.UseRouting();
-            app.UseCors();
-            app.UseAuthentication();
-            app.UseAuthorization();
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
-            });
-        }
+            endpoints.MapControllers();
+        });
     }
+}
 }
