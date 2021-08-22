@@ -11,6 +11,7 @@ https://www.linkedin.com/in/rochajario/
 rochajario@gmail.com
 
 ##### Challenge Purposed by Alura
+![image](https://user-images.githubusercontent.com/56648231/130365537-fcc7602e-a2e7-4e4d-8a5f-3aafac4f15a7.png)
 
 
 ##### License
