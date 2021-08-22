@@ -1,19 +1,17 @@
-# Alura Challenge Backend - JayFlix API
+## JAYFLIX - API
+A portifolio restful api for registering and organizing videos by category.
+Built with love with a learn-by-doing approach with TDD and SOLID principles in mind.
+Using .Net Core 5.0 Framework with C# & Entity Framework Core.
 
-Recursos:
-===
+Check the Api Documentation [here](https://jayflix-api.herokuapp.com/swagger/index.html)
 
-- [API Pública](https://videos-alura-backend-challenge.herokuapp.com/swagger/index.html "API Pública")
-- [Trello - Semana 1](https://trello.com/b/6gZbb70E/alura-challenge-backend-semana-1 "Trello")
-- [Trello - Semana 2](https://trello.com/b/A1ym0qWK/alura-challenge-backend-semana-2 "Trello")
+##### Developed by
+Jario Rocha dos Santos Junior - 2021 
+https://www.linkedin.com/in/rochajario/
+rochajario@gmail.com
+
+##### Challenge Purposed by Alura
 
 
-Sobre
-===
-Desenvolvido com:
-- .Net Core 5
-- Entity Framework
-
-Contato
-===
-[LinkedIn](https://www.linkedin.com/in/rochajario/ "LinkedIn")
+##### License
+MIT
