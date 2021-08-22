@@ -11,7 +11,7 @@ https://www.linkedin.com/in/rochajario/
 rochajario@gmail.com
 
 ##### Challenge Purposed by Alura
-![image](https://user-images.githubusercontent.com/56648231/130365729-1819b8b4-bfa8-48e6-893d-196d90f2d6f9.png)
+Alura Backend Challenge 2021
 
 ##### License
 MIT
