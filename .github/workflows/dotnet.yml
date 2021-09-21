@@ -18,8 +18,8 @@ jobs:
       with:
         dotnet-version: 5.0.x
     - name: Restore dependencies
-      run: dotnet restore /JayFlix-Api/App/plataforma-videos.sln
+      run: dotnet restore JayFlix-Api/App/plataforma-videos.sln
     - name: Build
-      run: dotnet build --no-restore /JayFlix-Api/App/plataforma-videos.sln
+      run: dotnet build --no-restore JayFlix-Api/App/plataforma-videos.sln
     - name: Test
-      run: dotnet test --no-build --verbosity normal /JayFlix-Api/App/plataforma-videos.sln
+      run: dotnet test --no-build --verbosity normal JayFlix-Api/App/plataforma-videos.sln
