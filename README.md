@@ -8,13 +8,11 @@ Using .Net Core 5.0 Framework with C# & Entity Framework Core.
 
 Check the Api Documentation [here](https://jayflix-api.herokuapp.com/swagger/index.html)
 
-#### Developed by
-Jario Rocha dos Santos Junior - 2021 
-https://www.linkedin.com/in/rochajario/
-rochajario@gmail.com
+### Desenvolvido por:
+Jario Rocha dos Santos Junior - 2021  
+[![Linkedin Badge](https://img.shields.io/badge/-rochajario-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rochajario/?locale=en_US)](https://www.linkedin.com/in/rochajario/) [![Gmail Badge](https://img.shields.io/badge/-rochajario-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rochajario@gmail.com)](mailto:rochajario@gmail.com)
+##### Licença MIT.
 
 #### Challenge Purposed by Alura
 Alura Backend Challenge 2021
 
-#### License
-MIT
