@@ -1,6 +1,6 @@
 ## JAYFLIX - API
 
-![build](https://github.com/rochajario/Jayflix-Api/actions/workflows/jayflix-build.yml/badge.svg)
+[![Actions Status](https://github.com/rochajario/Jayflix-Api/workflows/jayflix-build.yml/badge.svg)](https://github.com/rochajario/Jayflix-Api/actions)
 
 A portifolio restful api for registering and organizing videos by category.
 Built with love with a learn-by-doing approach with TDD and SOLID principles in mind.
