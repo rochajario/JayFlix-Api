@@ -23,3 +23,4 @@ jobs:
       run: dotnet build --no-restore /home/runner/work/JayFlix-Api/JayFlix-Api/App/plataforma-videos.sln
     - name: Test
       run: dotnet test --no-build --verbosity normal /home/runner/work/JayFlix-Api/JayFlix-Api/App/plataforma-videos.sln
+      
