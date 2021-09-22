@@ -13,6 +13,5 @@ Alura Backend Challenge 2021
 
 ### Desenvolvido por:
 Jario Rocha dos Santos Junior - 2021  
-Sob Licença MIT | Under MIT License
 [![Linkedin Badge](https://img.shields.io/badge/-rochajario-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rochajario/?locale=en_US)](https://www.linkedin.com/in/rochajario/) [![Gmail Badge](https://img.shields.io/badge/-rochajario-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rochajario@gmail.com)](mailto:rochajario@gmail.com)
 
