@@ -1,4 +1,7 @@
 ## JAYFLIX - API
+
+![build](https://github.com/rochajario/Jayflix-Api/actions/workflows/jayflix-build.yml/badge.svg)
+
 A portifolio restful api for registering and organizing videos by category.
 Built with love with a learn-by-doing approach with TDD and SOLID principles in mind.
 Using .Net Core 5.0 Framework with C# & Entity Framework Core.
